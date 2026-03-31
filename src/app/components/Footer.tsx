@@ -29,7 +29,7 @@ export function Footer() {
           </div>
 
           {/* Customer */}
-          {/* <div>
+          <div>
             <h3 className="text-lg md:text-xl mb-4 md:mb-6">
               Customer Service
             </h3>
@@ -38,7 +38,7 @@ export function Footer() {
               <li>Returns & Exchanges</li>
               <li>Size Guide</li>
             </ul>
-          </div> */}
+          </div>
 
           {/* Links */}
           <div>
