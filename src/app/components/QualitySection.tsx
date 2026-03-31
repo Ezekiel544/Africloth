@@ -6,32 +6,32 @@ import Lightweight from './figma/lightweight.png'
 
 const BG_IMAGE = "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1920";
 
-// const features = [
-//   {
-//     img: fabric,
-//     alt: "Premium Cotton Fabric",
-//     title: "Premium Cotton Fabric",
-//     text1: "Our t-shirts are crafted from premium cotton that feels soft, breathable, and comfortable all day.",
-//     text2: "Designed for durability, the fabric keeps its shape and quality even after multiple washes.",
-//     from: "left",
-//   },
-//   {
-//     img: Lightweight,
-//     alt: "Breathable & Lightweight",
-//     title: "Breathable & Lightweight",
-//     text1: "Designed with breathable, lightweight fabric that keeps you cool and comfortable throughout the day.",
-//     text2: "Making it the perfect choice for everyday wear in any season.",
-//     from: "right",
-//   },
-//   {
-//     img: Modern,
-//     alt: "Modern Tailored Fit",
-//     title: "Modern Tailored Fit",
-//     text1: "Our t-shirts feature a modern tailored fit that offers a clean, sharp look while maintaining comfort.",
-//     text2: "Built for the everyday — from the street to the office.",
-//     from: "left",
-//   },
-// ];
+const features = [
+  {
+    img: fabric,
+    alt: "Premium Cotton Fabric",
+    title: "Premium Cotton Fabric",
+    text1: "Our t-shirts are crafted from premium cotton that feels soft, breathable, and comfortable all day.",
+    text2: "Designed for durability, the fabric keeps its shape and quality even after multiple washes.",
+    from: "left",
+  },
+  {
+    img: Lightweight,
+    alt: "Breathable & Lightweight",
+    title: "Breathable & Lightweight",
+    text1: "Designed with breathable, lightweight fabric that keeps you cool and comfortable throughout the day.",
+    text2: "Making it the perfect choice for everyday wear in any season.",
+    from: "right",
+  },
+  {
+    img: Modern,
+    alt: "Modern Tailored Fit",
+    title: "Modern Tailored Fit",
+    text1: "Our t-shirts feature a modern tailored fit that offers a clean, sharp look while maintaining comfort.",
+    text2: "Built for the everyday — from the street to the office.",
+    from: "left",
+  },
+];
 
 function useInView(threshold = 0.25) {
   const ref = useRef<HTMLDivElement>(null);
