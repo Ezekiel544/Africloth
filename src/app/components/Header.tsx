@@ -87,9 +87,9 @@ export function Header() {
           <a href="#" className="text-white hover:text-gray-300 transition-colors font-semibold ">Products</a>
           <a href="#" className="text-white hover:text-gray-300 transition-colors font-semibold">Offer</a>
         </nav>
-        {/* <nav className="hidden md:flex items-center gap-6"> <button className="bg-[#E9B824] text-black px-6 py-2 rounded-full hover:bg-[#d4a820] transition-colors">
+        <nav className="hidden md:flex items-center gap-6"> <button className="bg-[#E9B824] text-black px-6 py-2 rounded-full hover:bg-[#d4a820] transition-colors">
             Explore Collection
-          </button></nav> */}
+          </button></nav>
 
         {/* Mobile Logo + Hamburger */}
         <div className="md:hidden flex items-center justify-between w-full">
