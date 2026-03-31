@@ -80,13 +80,13 @@ export function Header() {
         </nav>
             
         {/* Right Navigation - hidden on mobile */}
-        <nav className="hidden md:flex items-center gap-6">
+        {/* <nav className="hidden md:flex items-center gap-6">
            <a href="#" className="text-white hover:text-[#9D4EDD] font-semibold  transition-colors">Trust</a>
           <a href="#" className="text-white hover:text-[#9D4EDD] font-semibold  transition-colors">Features</a>
           <a href="#" className="text-white hover:text-[#9D4EDD] font-semibold transition-colors">Lifestyle</a>
           <a href="#" className="text-white hover:text-gray-300 transition-colors font-semibold ">Products</a>
           <a href="#" className="text-white hover:text-gray-300 transition-colors font-semibold">Offer</a>
-        </nav>
+        </nav> */}
         <nav className="hidden md:flex items-center gap-6"> <button className="bg-[#E9B824] text-black px-6 py-2 rounded-full hover:bg-[#d4a820] transition-colors">
             Explore Collection
           </button></nav>
