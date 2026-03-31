@@ -98,19 +98,19 @@ function DiamondImage({ src, delay }) {
 /* =========================
    🧩 Watermark SVG
 ========================= */
-function Watermark() {
-  return (
-    <svg width="120" height="120" viewBox="0 0 120 120">
-      <circle cx="60" cy="60" r="58" stroke="#8B2E8B" strokeWidth="2" fill="none"/>
-      <text x="60" y="50" fontSize="12" fill="#8B2E8B" textAnchor="middle" fontWeight="bold">
-        COMFY
-      </text>
-      <text x="60" y="65" fontSize="12" fill="#8B2E8B" textAnchor="middle" fontWeight="bold">
-        WEAR
-      </text>
-      <text x="60" y="78" fontSize="7" fill="#8B2E8B" textAnchor="middle">
-        PREMIUM
-      </text>
-    </svg>
-  );
-}
+// function Watermark() {
+//   return (
+//     <svg width="120" height="120" viewBox="0 0 120 120">
+//       <circle cx="60" cy="60" r="58" stroke="#8B2E8B" strokeWidth="2" fill="none"/>
+//       <text x="60" y="50" fontSize="12" fill="#8B2E8B" textAnchor="middle" fontWeight="bold">
+//         COMFY
+//       </text>
+//       <text x="60" y="65" fontSize="12" fill="#8B2E8B" textAnchor="middle" fontWeight="bold">
+//         WEAR
+//       </text>
+//       <text x="60" y="78" fontSize="7" fill="#8B2E8B" textAnchor="middle">
+//         PREMIUM
+//       </text>
+//     </svg>
+//   );
+// }
