@@ -49,7 +49,7 @@ export function Header() {
           ))}
         </nav>
 
-        {/* <div style={{ display: "flex", alignItems: "center", justifyContent: "center" }}>
+        <div style={{ display: "flex", alignItems: "center", justifyContent: "center" }}>
           <svg width="82" height="82" viewBox="0 0 82 82" fill="none" xmlns="http://www.w3.org/2000/svg">
             <defs>
               <radialGradient id="logoGlow" cx="50%" cy="50%" r="50%">
@@ -72,7 +72,7 @@ export function Header() {
             <text x="41" y="48" fontSize="9.5" fill="white" textAnchor="middle" fontWeight="700" fontFamily="Montserrat, sans-serif" letterSpacing="1.5">WEAR</text>
             <text x="41" y="58" fontSize="5" fill="#C77DFF" textAnchor="middle" fontFamily="Montserrat, sans-serif" letterSpacing="2">YOUR JOURNEY BEGINS HERE</text>
           </svg>
-        </div> */}
+        </div>
 
         <nav style={{ display: "flex", gap: 28, alignItems: "center" }} className="desktop-nav">
           {["Products", "Offer"].map(item => (
