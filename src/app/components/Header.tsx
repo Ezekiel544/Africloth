@@ -105,30 +105,30 @@ export function Header() {
             </style>
 
           {/* Hamburger */}
-          {/* <button
+          <button
             className="flex flex-col gap-1.5 p-1"
             onClick={() => setMenuOpen(!menuOpen)}
           >
             <span className={`block w-6 h-0.5 bg-[#C77DFF] transition-all duration-300 ${menuOpen ? "translate-y-2 rotate-45" : ""}`} />
             <span className={`block w-6 h-0.5 bg-[#C77DFF] transition-all duration-300 ${menuOpen ? "opacity-0 scale-x-0" : ""}`} />
             <span className={`block w-6 h-0.5 bg-[#C77DFF] transition-all duration-300 ${menuOpen ? "-translate-y-2 -rotate-45" : ""}`} />
-          </button> */}
+          </button>
         </div>
       </div>
 
       {/* Mobile dropdown menu */}
       {menuOpen && (
-        <div className="md:hidden flex flex-col gap-4 px-8 pt-4 pb-6 border-t border-gray-800 mt-2">
-          <a href="#" className="text-white text-base font-semibold">Home</a>
-          <a href="#" className="text-white text-base font-semibold">Trust</a>
-          <a href="#" className="text-white text-base font-semibold">Features</a>
-          <a href="#" className="ext-white text-base font-semibold">Lifestyle</a>
-          <a href="#" className="text-white text-base font-semibold">Products</a>
-          <a href="#" className="text-white text-base font-semibold">Offer</a>
-          <button className="bg-[#E9B824] text-black px-6 py-2 rounded-full w-fit font-bold">
-            Explore Collection
-          </button>
-        </div>
+        // <div className="md:hidden flex flex-col gap-4 px-8 pt-4 pb-6 border-t border-gray-800 mt-2">
+        //   <a href="#" className="text-white text-base font-semibold">Home</a>
+        //   <a href="#" className="text-white text-base font-semibold">Trust</a>
+        //   <a href="#" className="text-white text-base font-semibold">Features</a>
+        //   <a href="#" className="ext-white text-base font-semibold">Lifestyle</a>
+        //   <a href="#" className="text-white text-base font-semibold">Products</a>
+        //   <a href="#" className="text-white text-base font-semibold">Offer</a>
+        //   <button className="bg-[#E9B824] text-black px-6 py-2 rounded-full w-fit font-bold">
+        //     Explore Collection
+        //   </button>
+        // </div>
       )}
     </header>
   );
