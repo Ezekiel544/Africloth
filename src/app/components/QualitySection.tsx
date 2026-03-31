@@ -183,84 +183,84 @@ function FeatureDesktopRow({ feature, index }: { feature: typeof features[0]; in
   );
 }
 
-// export function QualitySection() {
-//   return (
-//     <section style={{ position: "relative", overflow: "hidden", padding: "100px 0" }}>
+export function QualitySection() {
+  return (
+    <section style={{ position: "relative", overflow: "hidden", padding: "100px 0" }}>
 
-//       {/* Dark background image */}
-//       <div style={{
-//         position: "absolute",
-//         inset: 0,
-//         backgroundImage: `url(${BG_IMAGE})`,
-//         backgroundSize: "cover",
-//         backgroundPosition: "center",
-//         backgroundRepeat: "no-repeat",
-//         zIndex: 0,
-//         filter: "brightness(0.22)",
-//       }} />
+      {/* Dark background image */}
+      <div style={{
+        position: "absolute",
+        inset: 0,
+        backgroundImage: `url(${BG_IMAGE})`,
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+        backgroundRepeat: "no-repeat",
+        zIndex: 0,
+        filter: "brightness(0.22)",
+      }} />
 
-//       {/* Subtle dark overlay for extra depth */}
-//       <div style={{
-//         position: "absolute",
-//         inset: 0,
-//         background: "linear-gradient(to bottom, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.2) 50%, rgba(0,0,0,0.6) 100%)",
-//         zIndex: 1,
-//       }} />
+      {/* Subtle dark overlay for extra depth */}
+      <div style={{
+        position: "absolute",
+        inset: 0,
+        background: "linear-gradient(to bottom, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.2) 50%, rgba(0,0,0,0.6) 100%)",
+        zIndex: 1,
+      }} />
 
-//       <div style={{ position: "relative", zIndex: 2, maxWidth: 1100, margin: "0 auto", padding: "0 32px" }}>
+      <div style={{ position: "relative", zIndex: 2, maxWidth: 1100, margin: "0 auto", padding: "0 32px" }}>
 
-//         {/* Header */}
-//         <div style={{ textAlign: "center", marginBottom: 72 }}>
-//           <h2 style={{
-//             fontFamily: "'Playfair Display', Georgia, serif",
-//             fontSize: "clamp(1.5rem, 4vw, 3.4rem)",
-//             fontWeight: 800,
-//             color: "#ffffff",
-//             lineHeight: 1.2,
-//             marginBottom: 20,
-//           }}>
-//             Comfort, Quality, and Style<br />in Every Tee
-//           </h2>
-//           <p style={{
-//             fontFamily: "'Montserrat', sans-serif",
-//             color: "rgba(255,255,255,0.65)",
-//             fontSize: "clamp(0.9rem, 1.2vw, 1.05rem)",
-//             lineHeight: 1.8,
-//             maxWidth: 560,
-//             margin: "0 auto",
-//           }}>
-//             We focus on premium materials, clean design, and perfect tailoring to create t-shirts that look great and feel even better.
-//           </p>
-//         </div>
+        {/* Header */}
+        <div style={{ textAlign: "center", marginBottom: 72 }}>
+          <h2 style={{
+            fontFamily: "'Playfair Display', Georgia, serif",
+            fontSize: "clamp(1.5rem, 4vw, 3.4rem)",
+            fontWeight: 800,
+            color: "#ffffff",
+            lineHeight: 1.2,
+            marginBottom: 20,
+          }}>
+            Comfort, Quality, and Style<br />in Every Tee
+          </h2>
+          <p style={{
+            fontFamily: "'Montserrat', sans-serif",
+            color: "rgba(255,255,255,0.65)",
+            fontSize: "clamp(0.9rem, 1.2vw, 1.05rem)",
+            lineHeight: 1.8,
+            maxWidth: 560,
+            margin: "0 auto",
+          }}>
+            We focus on premium materials, clean design, and perfect tailoring to create t-shirts that look great and feel even better.
+          </p>
+        </div>
 
-//         {/* Desktop layout */}
-//         <div className="quality-desktop">
-//           {features.map((f, i) => (
-//             <FeatureDesktopRow key={i} feature={f} index={i} />
-//           ))}
-//         </div>
+        {/* Desktop layout */}
+        <div className="quality-desktop">
+          {features.map((f, i) => (
+            <FeatureDesktopRow key={i} feature={f} index={i} />
+          ))}
+        </div>
 
-//         {/* Mobile layout */}
-//         <div className="quality-mobile" style={{ display: "none", flexDirection: "column", gap: 48 }}>
-//           {features.map((f, i) => (
-//             <FeatureRow key={i} feature={f} index={i} />
-//           ))}
-//         </div>
-//       </div>
+        {/* Mobile layout */}
+        <div className="quality-mobile" style={{ display: "none", flexDirection: "column", gap: 48 }}>
+          {features.map((f, i) => (
+            <FeatureRow key={i} feature={f} index={i} />
+          ))}
+        </div>
+      </div>
 
-//       <style>{`
-//         @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Playfair+Display:wght@700;800&display=swap');
+      <style>{`
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Playfair+Display:wght@700;800&display=swap');
 
-//         @media (max-width: 768px) {
-//           .quality-desktop { display: none !important; }
-//           .quality-mobile { display: flex !important; }
-//           .feature-text-mobile { display: block !important; }
-//         }
+        @media (max-width: 768px) {
+          .quality-desktop { display: none !important; }
+          .quality-mobile { display: flex !important; }
+          .feature-text-mobile { display: block !important; }
+        }
 
-//         .feature-text-mobile {
-//           display: block;
-//         }
-//       `}</style>
-//     </section>
-//   );
-// }
+        .feature-text-mobile {
+          display: block;
+        }
+      `}</style>
+    </section>
+  );
+}
