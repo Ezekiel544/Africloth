@@ -136,7 +136,7 @@ export function Header() {
         </button>
       </div>
 
-      {/* {menuOpen && (
+      {menuOpen && (
         <div style={{
           background: "#111",
           padding: "20px 32px",
@@ -152,7 +152,7 @@ export function Header() {
             Explore Collection
           </button>
         </div>
-      )} */}
+      )}
 
       <style>{`
   @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&family=Playfair+Display:wght@700;800&display=swap');
