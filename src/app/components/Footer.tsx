@@ -41,14 +41,14 @@ export function Footer() {
           </div>
 
           {/* Links */}
-          {/* <div>
+          <div>
             <h3 className="text-lg md:text-xl mb-4 md:mb-6">Links</h3>
             <ul className="space-y-2 md:space-y-3 text-gray-400">
               <li>Facebook</li>
               <li>Instagram</li>
               <li>Twitter</li>
             </ul>
-          </div> */}
+          </div>
 
         </div>
 
