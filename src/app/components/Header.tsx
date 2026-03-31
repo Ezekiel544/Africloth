@@ -31,15 +31,15 @@ export function Header() {
   const mobileTransparent = atTop && !menuOpen;
 
   return (
-    <header
-      className="fixed top-0 left-0 right-0 z-50 text-white py-2 px-4 md:bg-black/20 md:backdrop-blur-sm"
-      style={{
-        transform: visible ? "translateY(0)" : "translateY(-100%)",
-        transition: "transform 0.3s ease, background-color 0.3s ease",
-        backgroundColor: mobileTransparent ? "transparent" : "rgba(0,0,0,0.2)",
-        backdropFilter: mobileTransparent ? "none" : "blur(8px)",
-      }}
-    >
+    // <header
+    //   className="fixed top-0 left-0 right-0 z-50 text-white py-2 px-4 md:bg-black/20 md:backdrop-blur-sm"
+    //   style={{
+    //     transform: visible ? "translateY(0)" : "translateY(-100%)",
+    //     transition: "transform 0.3s ease, background-color 0.3s ease",
+    //     backgroundColor: mobileTransparent ? "transparent" : "rgba(0,0,0,0.2)",
+    //     backdropFilter: mobileTransparent ? "none" : "blur(8px)",
+    //   }}
+    // >
       <div className="max-w-7xl mx-auto flex items-center justify-between">
 
         {/* Left Navigation - hidden on mobile */}
