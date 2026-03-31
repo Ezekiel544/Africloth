@@ -3,14 +3,14 @@ import Polo from './figma/polo.png'
 import Polotwo from './figma/polotwo.png'
 import Polothree from './figma/polothree.png'
 export function BestSellingSection() {
-  const cardVariant = {
-    hidden: { opacity: 0, y: 80 },
-    visible: {
-      opacity: 1,
-      y: 0,
-      transition: { duration: 0.7, ease: "easeOut" }
-    }
-  };
+  // const cardVariant = {
+  //   hidden: { opacity: 0, y: 80 },
+  //   visible: {
+  //     opacity: 1,
+  //     y: 0,
+  //     transition: { duration: 0.7, ease: "easeOut" }
+  //   }
+  // };
 
   return (
     <section className="py-20 bg-white overflow-hidden">
