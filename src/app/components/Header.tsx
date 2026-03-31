@@ -96,13 +96,13 @@ export function Header() {
 
           {/* Mobile Logo */}
            <img src={logo} alt="Africloth Logo" width={60} className="logo"/>
-            {/* <style>
+            <style>
               {`
                 .logo {
                   border-radius: 70%;
                 }
               `}
-            </style> */}
+            </style>
 
           {/* Hamburger */}
           <button
