@@ -105,14 +105,14 @@ export function Header() {
             </style>
 
           {/* Hamburger */}
-          <button
+          {/* <button
             className="flex flex-col gap-1.5 p-1"
             onClick={() => setMenuOpen(!menuOpen)}
           >
             <span className={`block w-6 h-0.5 bg-[#C77DFF] transition-all duration-300 ${menuOpen ? "translate-y-2 rotate-45" : ""}`} />
             <span className={`block w-6 h-0.5 bg-[#C77DFF] transition-all duration-300 ${menuOpen ? "opacity-0 scale-x-0" : ""}`} />
             <span className={`block w-6 h-0.5 bg-[#C77DFF] transition-all duration-300 ${menuOpen ? "-translate-y-2 -rotate-45" : ""}`} />
-          </button>
+          </button> */}
         </div>
       </div>
 
