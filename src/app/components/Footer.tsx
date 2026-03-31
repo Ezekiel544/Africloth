@@ -19,14 +19,14 @@ export function Footer() {
           </div>
 
           {/* Shop */}
-          {/* <div>
+          <div>
             <h3 className="text-lg md:text-xl mb-4 md:mb-6">Shop</h3>
             <ul className="space-y-2 md:space-y-3 text-gray-400">
               <li>New Arrivals</li>
               <li>Best Sellers</li>
               <li>All Collection</li>
             </ul>
-          </div> */}
+          </div>
 
           {/* Customer */}
           <div>
