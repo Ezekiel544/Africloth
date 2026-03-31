@@ -118,17 +118,17 @@ export function Header() {
 
       {/* Mobile dropdown menu */}
       {menuOpen && (
-        // <div className="md:hidden flex flex-col gap-4 px-8 pt-4 pb-6 border-t border-gray-800 mt-2">
-        //   <a href="#" className="text-white text-base font-semibold">Home</a>
-        //   <a href="#" className="text-white text-base font-semibold">Trust</a>
-        //   <a href="#" className="text-white text-base font-semibold">Features</a>
-        //   <a href="#" className="ext-white text-base font-semibold">Lifestyle</a>
-        //   <a href="#" className="text-white text-base font-semibold">Products</a>
-        //   <a href="#" className="text-white text-base font-semibold">Offer</a>
-        //   <button className="bg-[#E9B824] text-black px-6 py-2 rounded-full w-fit font-bold">
-        //     Explore Collection
-        //   </button>
-        // </div>
+        <div className="md:hidden flex flex-col gap-4 px-8 pt-4 pb-6 border-t border-gray-800 mt-2">
+          <a href="#" className="text-white text-base font-semibold">Home</a>
+          <a href="#" className="text-white text-base font-semibold">Trust</a>
+          <a href="#" className="text-white text-base font-semibold">Features</a>
+          <a href="#" className="ext-white text-base font-semibold">Lifestyle</a>
+          <a href="#" className="text-white text-base font-semibold">Products</a>
+          <a href="#" className="text-white text-base font-semibold">Offer</a>
+          <button className="bg-[#E9B824] text-black px-6 py-2 rounded-full w-fit font-bold">
+            Explore Collection
+          </button>
+        </div>
       )}
     </header>
   );
