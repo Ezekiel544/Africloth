@@ -74,7 +74,7 @@ export function Header() {
           </svg>
         </div>
 
-        {/* <nav style={{ display: "flex", gap: 28, alignItems: "center" }} className="desktop-nav">
+        <nav style={{ display: "flex", gap: 28, alignItems: "center" }} className="desktop-nav">
           {["Products", "Offer"].map(item => (
             <a
               key={item}
@@ -105,7 +105,7 @@ export function Header() {
           >
             Explore Collection
           </button>
-        </nav> */}
+        </nav>
 
         <button
           className="hamburger"
