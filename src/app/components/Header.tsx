@@ -117,7 +117,7 @@ export function Header() {
       </div>
 
       {/* Mobile dropdown menu */}
-      {/* {menuOpen && (
+      {menuOpen && (
         <div className="md:hidden flex flex-col gap-4 px-8 pt-4 pb-6 border-t border-gray-800 mt-2">
           <a href="#" className="text-white text-base font-semibold">Home</a>
           <a href="#" className="text-white text-base font-semibold">Trust</a>
@@ -129,7 +129,7 @@ export function Header() {
             Explore Collection
           </button>
         </div>
-      )} */}
+      )}
     </header>
   );
 }
